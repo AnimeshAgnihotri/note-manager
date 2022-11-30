@@ -1,0 +1,21 @@
+{
+    "name": "note-taking",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "env-cmd -f ./config/dev.env nodemon ./src/app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.18.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.3.1",
+        "nodemon": "^2.0.20"
+    },
+    "devDependencies": {
+        "env-cmd": "^10.1.0"
+    }
+}
