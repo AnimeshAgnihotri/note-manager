@@ -1,0 +1,30 @@
+.Footer {
+    background-color: rgba(43, 43, 43);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FooterTitle {
+    color: rgb(255, 217, 0);
+    margin-left: 30px;
+    font-weight: lighter;
+    cursor: default;
+}
+
+.Router {
+    display: flex;
+    margin-right: 30px;
+}
+
+.Routes {
+    margin-left: 15px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.Routes:hover {
+    text-decoration: underline;
+}

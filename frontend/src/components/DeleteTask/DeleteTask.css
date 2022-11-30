@@ -1,0 +1,70 @@
+.DeleteTask {
+    background-color: rgb(78, 78, 78);
+    height: 56vh;
+    padding: 150px 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.DelQuestion {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 217, 0);
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 70px;
+}
+
+.DelNoteContent {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 217, 0);
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 70px;
+}
+
+.DeleteBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.DeleteButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 42px;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid rgb(78, 78, 78);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.NoDeleteButton {
+    background-color: rgb(255, 217, 0);
+}
+
+.NoDeleteButton:hover {
+    background: none;
+    color: rgb(255, 217, 0);
+    border: 2px solid rgb(255, 217, 0);
+}
+
+.YesDeleteButton {
+    background-color: rgb(255, 62, 62);
+}
+
+.YesDeleteButton:hover {
+    background: none;
+    color: rgb(255, 62, 62);
+    border: 2px solid rgb(255, 62, 62);
+}

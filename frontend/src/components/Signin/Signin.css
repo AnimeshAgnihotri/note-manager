@@ -1,0 +1,96 @@
+.Signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(78, 78, 78);
+    color: rgb(255, 217, 0);
+    height: 92.1vh;
+}
+
+.SigninHead {
+    margin: 50px 0px;
+    font-weight: lighter;
+    font-size: 36px;
+    cursor: default;
+    text-shadow: 2px 2px 5px black;
+}
+
+.SigninForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FormUsername {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.FormPassword {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.FormLabel {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px black;
+    cursor: default;
+}
+
+.FormInput {
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid rgb(255, 217, 0);
+    border-radius: 10px;
+    background: rgb(78, 78, 78);
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.FormBtns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Btns {
+    padding: 7px 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+    background-color: rgb(255, 217, 0);
+    font-weight: bold;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.4s;
+}
+
+.Btns:hover {
+    background: none;
+    border: 2px solid rgb(255, 217, 0);
+    color: rgb(255, 217, 0);
+}
+
+.registerBtn {
+    background-color: rgb(8, 163, 163);
+}
+
+.registerBtn:hover {
+    border: 3px solid rgb(8, 163, 163);
+    color: rgb(8, 163, 163);
+}
